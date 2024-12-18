@@ -4927,6 +4927,7 @@ GameObject:
   - component: {fileID: 3020414020874085863}
   - component: {fileID: 3109378896183712105}
   - component: {fileID: 3109020216133020329}
+  - component: {fileID: -6429354297416554930}
   m_Layer: 0
   m_Name: PlayerDestroyVFX
   m_TagString: Untagged
@@ -9836,6 +9837,19 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &-6429354297416554930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3018133254760803201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2590e3f5e792cb4fba863a1bf28940a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystemMap: []
 --- !u!1 &3018327519134429667
 GameObject:
   m_ObjectHideFlags: 0
